@@ -1,0 +1,148 @@
+<!doctype html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Grandfondo — Rota Vicentina | Câmara Municipal de Odemira</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <nav class="prim">
+    <div class="marca">
+      <img src="images/odemira.jpg" class="logo" />
+      <div class="texto">
+        <strong>Grandfondo</strong><br>
+        <span>Rota Vicentina</span>
+      </div>
+    </div>
+    <div class="links">
+      <a href="#sobre">Sobre</a>
+      <a href="#inscricoes">Inscrições</a>
+      <a href="#provas">Provas</a>
+      <a class="cta" href="#inscricoes">Inscreve-te</a>
+    </div>
+  </nav>
+
+  
+  <header class="hero">
+    <video class="video" autoplay muted loop playsinline poster="hero-poster.jpg">
+      <source src="images/videobike.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay">
+      <div class="eyebrow">Promovido por Câmara Municipal de Odemira</div>
+      <h1>Grandfondo na Rota Vicentina</h1>
+      <p>Uma experiência ciclística única entre falésias, praias selvagens e aldeias históricas. Vem pedalar connosco na costa alentejana.</p>
+      <div class="butoes">
+        <a class="btn btn-first" href="#inscricoes">Inscreve-te aqui</a>
+        <a class="btn btn-outline" href="#provas">Ver outras provas</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+   
+    <section id="sobre" class="container about">
+      <div class="about-texto">
+        <span class="evento">Evento Principal</span>
+        <h2>O Grandfondo</h2>
+        <p>Prova de resistência e contemplação com percursos técnicos e vistas inesquecíveis, organizada pela Câmara Municipal de Odemira.</p>
+        <ul>
+          <li><strong>Local:</strong> Rota Vicentina — Costa Alentejana</li>
+          <li><strong>Data:</strong> 6 de Stembro de 2026</li>
+          <li><strong>Pontos de apoio:</strong> Abastecimentos, assistência e apoio médico</li>
+        </ul>
+      </div>
+      <div class="about-img">
+        <img src="images/psg1.png">
+      </div>
+    </section>
+
+    <section id="inscricoes" class="container inscricoes">
+      <h2>Inscrições</h2>
+      <p>Inscreve-te no Grandfondo — vagas limitadas. Seleciona a prova e envia o formulário.</p>
+
+      <div class="grid cartoes">
+        <div class="cartao">
+          <h3>Grandfondo — 170 km</h3>
+          <p>Percurso completo pela Rota Vicentina, com segmentos técnicos e subidas longas.</p>
+          <div class="preco">€45</div>
+        </div>
+
+        <div class="cartao">
+          <h3>Mediofondo — 110 km</h3>
+          <p>Desafio intermédio, equilibrado entre força e técnica.</p>
+          <div class="preco">€35</div>
+        </div>
+
+        <div class="cartao">
+          <h3>Minifondo — 55 km</h3>
+          <p>Prova curta com trechos costeiros, ideal para iniciados.</p>
+          <div class="preco">€20</div>
+        </div>
+      </div>
+
+      <div class="form-area">
+        <form id="regForm">
+          <input type="text" name="nome" placeholder="Nome completo" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <select name="prova" required>
+            <option value="">Seleciona a prova...</option>
+            <option value="grandfondo">Grandfondo — 170 km</option>
+            <option value="mediofondo">Mediofondo — 110 km</option>
+            <option value="minifondo">Minifondo — 55 km</option>
+            <option value="passeio">Passeio Familiar — 20 km</option>
+          </select>
+          <button type="submit" class="btn btn-first">Enviar inscrição</button>
+        </form>
+      </div>
+    </section>
+
+    
+    <section id="provas" class="container provas">
+      <h2>Outras provas e atividades</h2>
+      <div class="grid cartoes">
+        <div class="cartao">
+          <h3>Passeio Familiar — 20 km</h3>
+          <p>Rota plana e segura, ideal para famílias e crianças.</p>
+        </div>
+
+        <div class="cartao">
+          <h3>Gran Fondo Curto — 40 km</h3>
+          <p>Versão curta do desafio, para quem procura ritmo mais moderado.</p>
+        </div>
+
+        <div class="cartao">
+          <h3>Rota de BTT Assistida — 30 km</h3>
+          <p>Trilhos interiores com guias locais e paragens culturais.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="container galeria">
+      <h2>Galeria</h2>
+      <div class="fotos">
+        <img src="images/ps4.jpg" >
+        <img src="images/psg2.jpg" >
+        <img src="images/psg3.jpg" >
+      </div>
+    </section>
+
+    
+    <section id="contactos" class="container contactos">
+      <h2>Contactos</h2>
+      <p>Divisão de Desporto e Juventude — Câmara Municipal de Odemira</p>
+      <ul>
+        <li><strong>Email:</strong> desporto@cm-odemira.pt</li>
+        <li><strong>Tel:</strong> +351 286 XXX XXX</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      &copy; Câmara Municipal de Odemira — Grandfondo Rota Vicentina
+    </div>
+  </footer>
+</body>
+</html>
